@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     @include('Include/header');
-    <title>NamekC - Résumé</title>
+    <title>Namek - Résumé</title>
 
     <!-- CSS LOGIN -->
     <link rel="stylesheet" href="{{ asset('css/style-checkout.css') }}">

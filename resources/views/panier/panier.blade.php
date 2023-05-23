@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     @include('Include/header');
-    <title>NamekCBD - Mon panier</title>
+    <title>Namek - Mon panier</title>
 
     <!-- CSS LOGIN -->
     <link rel="stylesheet" href="{{ asset('css/style-panier.css') }}">

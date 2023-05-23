@@ -55,7 +55,7 @@
                     <div class="carousel-inner">
                             @foreach ($rss->slice(0, 9) as $key => $rssProduct )
                                 @if($key % 3 == 0)
-                                    <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
+                                    <div class="carousel-item {{ $key == 0 ? 'active' : '' }}" id="carousel-item-height">
                                         <div class="row" id="rss-row">
                                             <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 div-produit-content">
                                                 <div class="card" style="box-shadow: 0 15px 20px -12px #499b4a;">
@@ -115,6 +115,7 @@
                                     </div>
                                 @endif
                             @endforeach
+                        </div>
                     <a class="carousel-control-prev" href="#carouselThreeColumn" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>

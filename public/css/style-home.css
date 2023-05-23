@@ -77,6 +77,11 @@ h1{
     justify-content: center;
 }
 
+.view-product-button {
+    background-color: #499b4a;
+    color: white;
+}
+
 @media (max-width: 1198px) {
     .row-sorties>* {
         width:33%;
@@ -124,5 +129,8 @@ h1{
     .card-body button{
         font-size:15px;
         width: 100%;
+    }
+    #carousel-item-height{
+        height: 350px;
     }
 }

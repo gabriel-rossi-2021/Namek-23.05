@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     @include('Include/header');
-    <title>NamekCBD - Contact</title>
+    <title>Namek - Recherche</title>
 
     <!-- CSS CONTACT -->
     <link rel="stylesheet" href="{{ asset('css/style-contact.css') }}">

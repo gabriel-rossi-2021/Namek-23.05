@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     @include('Include/header')
-    <title>NamekCBD - {{ $details->name_product }}</title>
+    <title>Namek - {{ $details->name_product }}</title>
 
     <link rel="stylesheet" href="{{ asset('css/style-details.css') }}">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
